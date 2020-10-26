@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,31 @@
 		79225B39254687BE0071F8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79225B37254687BE0071F8FE /* Main.storyboard */; };
 		79225B3B254687C40071F8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79225B3A254687C40071F8FE /* Assets.xcassets */; };
 		79225B3E254687C40071F8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79225B3C254687C40071F8FE /* LaunchScreen.storyboard */; };
+		79225B57254689BB0071F8FE /* practiceRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79225B56254689BB0071F8FE /* practiceRxTests.swift */; };
+		79FDE62025468B4200D91FD9 /* practiceRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FDE61F25468B4200D91FD9 /* practiceRxUITests.swift */; };
+		79FDE62F25468C4800D91FD9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 79FDE62E25468C4800D91FD9 /* RxSwift */; };
+		79FDE63125468C4800D91FD9 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 79FDE63025468C4800D91FD9 /* RxTest */; };
+		79FDE63325468C4800D91FD9 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 79FDE63225468C4800D91FD9 /* RxRelay */; };
+		79FDE63525468C4800D91FD9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 79FDE63425468C4800D91FD9 /* RxCocoa */; };
+		79FDE63725468C4800D91FD9 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 79FDE63625468C4800D91FD9 /* RxBlocking */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79225B59254689BB0071F8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79225B26254687BE0071F8FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79225B2D254687BE0071F8FE;
+			remoteInfo = practiceRx;
+		};
+		79FDE62225468B4200D91FD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79225B26254687BE0071F8FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79225B2D254687BE0071F8FE;
+			remoteInfo = practiceRx;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		79225B2E254687BE0071F8FE /* practiceRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +48,35 @@
 		79225B3A254687C40071F8FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79225B3D254687C40071F8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79225B3F254687C40071F8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79225B54254689BB0071F8FE /* practiceRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79225B56254689BB0071F8FE /* practiceRxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceRxTests.swift; sourceTree = "<group>"; };
+		79225B58254689BB0071F8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FDE61D25468B4200D91FD9 /* practiceRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FDE61F25468B4200D91FD9 /* practiceRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceRxUITests.swift; sourceTree = "<group>"; };
+		79FDE62125468B4200D91FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		79225B2B254687BE0071F8FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FDE63525468C4800D91FD9 /* RxCocoa in Frameworks */,
+				79FDE63325468C4800D91FD9 /* RxRelay in Frameworks */,
+				79FDE62F25468C4800D91FD9 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79225B51254689BB0071F8FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FDE63125468C4800D91FD9 /* RxTest in Frameworks */,
+				79FDE63725468C4800D91FD9 /* RxBlocking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FDE61A25468B4200D91FD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				79225B30254687BE0071F8FE /* practiceRx */,
+				79225B55254689BB0071F8FE /* practiceRxTests */,
+				79FDE61E25468B4200D91FD9 /* practiceRxUITests */,
 				79225B2F254687BE0071F8FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				79225B2E254687BE0071F8FE /* practiceRx.app */,
+				79225B54254689BB0071F8FE /* practiceRxTests.xctest */,
+				79FDE61D25468B4200D91FD9 /* practiceRxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +120,24 @@
 			path = practiceRx;
 			sourceTree = "<group>";
 		};
+		79225B55254689BB0071F8FE /* practiceRxTests */ = {
+			isa = PBXGroup;
+			children = (
+				79225B56254689BB0071F8FE /* practiceRxTests.swift */,
+				79225B58254689BB0071F8FE /* Info.plist */,
+			);
+			path = practiceRxTests;
+			sourceTree = "<group>";
+		};
+		79FDE61E25468B4200D91FD9 /* practiceRxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79FDE61F25468B4200D91FD9 /* practiceRxUITests.swift */,
+				79FDE62125468B4200D91FD9 /* Info.plist */,
+			);
+			path = practiceRxUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +154,54 @@
 			dependencies = (
 			);
 			name = practiceRx;
+			packageProductDependencies = (
+				79FDE62E25468C4800D91FD9 /* RxSwift */,
+				79FDE63225468C4800D91FD9 /* RxRelay */,
+				79FDE63425468C4800D91FD9 /* RxCocoa */,
+			);
 			productName = practiceRx;
 			productReference = 79225B2E254687BE0071F8FE /* practiceRx.app */;
 			productType = "com.apple.product-type.application";
+		};
+		79225B53254689BB0071F8FE /* practiceRxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79225B5B254689BB0071F8FE /* Build configuration list for PBXNativeTarget "practiceRxTests" */;
+			buildPhases = (
+				79225B50254689BB0071F8FE /* Sources */,
+				79225B51254689BB0071F8FE /* Frameworks */,
+				79225B52254689BB0071F8FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79225B5A254689BB0071F8FE /* PBXTargetDependency */,
+			);
+			name = practiceRxTests;
+			packageProductDependencies = (
+				79FDE63025468C4800D91FD9 /* RxTest */,
+				79FDE63625468C4800D91FD9 /* RxBlocking */,
+			);
+			productName = practiceRxTests;
+			productReference = 79225B54254689BB0071F8FE /* practiceRxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79FDE61C25468B4200D91FD9 /* practiceRxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FDE62625468B4200D91FD9 /* Build configuration list for PBXNativeTarget "practiceRxUITests" */;
+			buildPhases = (
+				79FDE61925468B4200D91FD9 /* Sources */,
+				79FDE61A25468B4200D91FD9 /* Frameworks */,
+				79FDE61B25468B4200D91FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FDE62325468B4200D91FD9 /* PBXTargetDependency */,
+			);
+			name = practiceRxUITests;
+			productName = practiceRxUITests;
+			productReference = 79FDE61D25468B4200D91FD9 /* practiceRxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,12 +209,20 @@
 		79225B26254687BE0071F8FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = yodaaa;
 				TargetAttributes = {
 					79225B2D254687BE0071F8FE = {
 						CreatedOnToolsVersion = 11.7;
+					};
+					79225B53254689BB0071F8FE = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 79225B2D254687BE0071F8FE;
+					};
+					79FDE61C25468B4200D91FD9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 79225B2D254687BE0071F8FE;
 					};
 				};
 			};
@@ -111,11 +235,16 @@
 				Base,
 			);
 			mainGroup = 79225B25254687BE0071F8FE;
+			packageReferences = (
+				79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 79225B2F254687BE0071F8FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79225B2D254687BE0071F8FE /* practiceRx */,
+				79225B53254689BB0071F8FE /* practiceRxTests */,
+				79FDE61C25468B4200D91FD9 /* practiceRxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +257,20 @@
 				79225B3E254687C40071F8FE /* LaunchScreen.storyboard in Resources */,
 				79225B3B254687C40071F8FE /* Assets.xcassets in Resources */,
 				79225B39254687BE0071F8FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79225B52254689BB0071F8FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FDE61B25468B4200D91FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +287,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79225B50254689BB0071F8FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79225B57254689BB0071F8FE /* practiceRxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FDE61925468B4200D91FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FDE62025468B4200D91FD9 /* practiceRxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79225B5A254689BB0071F8FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79225B2D254687BE0071F8FE /* practiceRx */;
+			targetProxy = 79225B59254689BB0071F8FE /* PBXContainerItemProxy */;
+		};
+		79FDE62325468B4200D91FD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79225B2D254687BE0071F8FE /* practiceRx */;
+			targetProxy = 79FDE62225468B4200D91FD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		79225B37254687BE0071F8FE /* Main.storyboard */ = {
@@ -294,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yodaaa.practiceRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +484,89 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yodaaa.practiceRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		79225B5C254689BB0071F8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKGH3PPX4X;
+				INFOPLIST_FILE = practiceRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodaaa.practiceRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practiceRx.app/practiceRx";
+			};
+			name = Debug;
+		};
+		79225B5D254689BB0071F8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKGH3PPX4X;
+				INFOPLIST_FILE = practiceRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodaaa.practiceRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practiceRx.app/practiceRx";
+			};
+			name = Release;
+		};
+		79FDE62425468B4200D91FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKGH3PPX4X;
+				INFOPLIST_FILE = practiceRxUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodaaa.practiceRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practiceRx;
+			};
+			name = Debug;
+		};
+		79FDE62525468B4200D91FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKGH3PPX4X;
+				INFOPLIST_FILE = practiceRxUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodaaa.practiceRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practiceRx;
 			};
 			name = Release;
 		};
@@ -337,7 +591,64 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		79225B5B254689BB0071F8FE /* Build configuration list for PBXNativeTarget "practiceRxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79225B5C254689BB0071F8FE /* Debug */,
+				79225B5D254689BB0071F8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FDE62625468B4200D91FD9 /* Build configuration list for PBXNativeTarget "practiceRxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FDE62425468B4200D91FD9 /* Debug */,
+				79FDE62525468B4200D91FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79FDE62E25468C4800D91FD9 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		79FDE63025468C4800D91FD9 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		79FDE63225468C4800D91FD9 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		79FDE63425468C4800D91FD9 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		79FDE63625468C4800D91FD9 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79FDE62D25468C4800D91FD9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79225B26254687BE0071F8FE /* Project object */;
 }
