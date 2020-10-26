@@ -3,6 +3,13 @@
 ![iOS](https://img.shields.io/badge/iOS-12.0+-springgreen.svg?logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-5.2-tomato.svg?logo=swift)
 
+## 🧰 Tools
+|  Name   |  Install  |
+| ------- | --------- |
+|  Xcode  |  [Download for Apple Developers](https://developer.apple.com/download/more/)  |
+|  RxSwift  |  SwiftPM |
+
+
 
 ## 👀 Prefix for commit comment rule
 | Emoji | Description |
